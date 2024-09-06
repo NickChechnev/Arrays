@@ -15,7 +15,6 @@ func main() {
 	for _, line := range lines {
 		counts[line]++
 	}
-	sort.counts(n)
 	for count, number := range counts {
 		fmt.Printf("%s: %d\n", count, number)
 	}
